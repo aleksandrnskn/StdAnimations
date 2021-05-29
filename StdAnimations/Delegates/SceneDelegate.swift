@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  HomeTask_13
+//  StdAnimations
 //
 //  Created by Aleksandr Aniskin on 23.05.2021.
 //

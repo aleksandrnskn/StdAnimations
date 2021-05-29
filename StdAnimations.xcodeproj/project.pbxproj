@@ -13,10 +13,11 @@
 		7B8EC71E265A3DEE004312E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EC71C265A3DEE004312E9 /* Main.storyboard */; };
 		7B8EC720265A3DF3004312E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EC71F265A3DF3004312E9 /* Assets.xcassets */; };
 		7B8EC723265A3DF3004312E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EC721265A3DF3004312E9 /* LaunchScreen.storyboard */; };
+		7B8EC72C265CDDD2004312E9 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EC72B265CDDD2004312E9 /* ButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B8EC713265A3DEE004312E9 /* HomeTask_13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeTask_13.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8EC713265A3DEE004312E9 /* StdAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StdAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8EC716265A3DEE004312E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B8EC718265A3DEE004312E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7B8EC71A265A3DEE004312E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		7B8EC71F265A3DF3004312E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B8EC722265A3DF3004312E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B8EC724265A3DF3004312E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B8EC72B265CDDD2004312E9 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		7B8EC70A265A3DEE004312E9 = {
 			isa = PBXGroup;
 			children = (
-				7B8EC715265A3DEE004312E9 /* HomeTask_13 */,
+				7B8EC715265A3DEE004312E9 /* StdAnimations */,
 				7B8EC714265A3DEE004312E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,64 @@
 		7B8EC714265A3DEE004312E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B8EC713265A3DEE004312E9 /* HomeTask_13.app */,
+				7B8EC713265A3DEE004312E9 /* StdAnimations.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B8EC715265A3DEE004312E9 /* HomeTask_13 */ = {
+		7B8EC715265A3DEE004312E9 /* StdAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				7B8EC716265A3DEE004312E9 /* AppDelegate.swift */,
-				7B8EC718265A3DEE004312E9 /* SceneDelegate.swift */,
-				7B8EC71A265A3DEE004312E9 /* ViewController.swift */,
-				7B8EC71C265A3DEE004312E9 /* Main.storyboard */,
+				7B8EC72E265D576D004312E9 /* Delegates */,
+				7B8EC72F265D577E004312E9 /* Storyboards */,
+				7B8EC730265D5797004312E9 /* ViewControllers */,
+				7B8EC732265D583C004312E9 /* SwiftFiles */,
 				7B8EC71F265A3DF3004312E9 /* Assets.xcassets */,
-				7B8EC721265A3DF3004312E9 /* LaunchScreen.storyboard */,
 				7B8EC724265A3DF3004312E9 /* Info.plist */,
 			);
-			path = HomeTask_13;
+			path = StdAnimations;
+			sourceTree = "<group>";
+		};
+		7B8EC72E265D576D004312E9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7B8EC718265A3DEE004312E9 /* SceneDelegate.swift */,
+				7B8EC716265A3DEE004312E9 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7B8EC72F265D577E004312E9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7B8EC721265A3DF3004312E9 /* LaunchScreen.storyboard */,
+				7B8EC71C265A3DEE004312E9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7B8EC730265D5797004312E9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B8EC71A265A3DEE004312E9 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7B8EC732265D583C004312E9 /* SwiftFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7B8EC72B265CDDD2004312E9 /* ButtonStyle.swift */,
+			);
+			path = SwiftFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B8EC712265A3DEE004312E9 /* HomeTask_13 */ = {
+		7B8EC712265A3DEE004312E9 /* StdAnimations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B8EC727265A3DF3004312E9 /* Build configuration list for PBXNativeTarget "HomeTask_13" */;
+			buildConfigurationList = 7B8EC727265A3DF3004312E9 /* Build configuration list for PBXNativeTarget "StdAnimations" */;
 			buildPhases = (
 				7B8EC70F265A3DEE004312E9 /* Sources */,
 				7B8EC710265A3DEE004312E9 /* Frameworks */,
@@ -82,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = HomeTask_13;
+			name = StdAnimations;
 			productName = HomeTask_13;
-			productReference = 7B8EC713265A3DEE004312E9 /* HomeTask_13.app */;
+			productReference = 7B8EC713265A3DEE004312E9 /* StdAnimations.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B8EC70E265A3DEE004312E9 /* Build configuration list for PBXProject "HomeTask_13" */;
+			buildConfigurationList = 7B8EC70E265A3DEE004312E9 /* Build configuration list for PBXProject "StdAnimations" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B8EC712265A3DEE004312E9 /* HomeTask_13 */,
+				7B8EC712265A3DEE004312E9 /* StdAnimations */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B8EC71B265A3DEE004312E9 /* ViewController.swift in Sources */,
+				7B8EC72C265CDDD2004312E9 /* ButtonStyle.swift in Sources */,
 				7B8EC717265A3DEE004312E9 /* AppDelegate.swift in Sources */,
 				7B8EC719265A3DEE004312E9 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,15 +324,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3BWCY8G6P;
-				INFOPLIST_FILE = HomeTask_13/Info.plist;
+				INFOPLIST_FILE = StdAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.nskn.HomeTask-13";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.nskn.StdAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,22 +343,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3BWCY8G6P;
-				INFOPLIST_FILE = HomeTask_13/Info.plist;
+				INFOPLIST_FILE = StdAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.nskn.HomeTask-13";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.nskn.StdAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B8EC70E265A3DEE004312E9 /* Build configuration list for PBXProject "HomeTask_13" */ = {
+		7B8EC70E265A3DEE004312E9 /* Build configuration list for PBXProject "StdAnimations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B8EC725265A3DF3004312E9 /* Debug */,
@@ -331,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B8EC727265A3DF3004312E9 /* Build configuration list for PBXNativeTarget "HomeTask_13" */ = {
+		7B8EC727265A3DF3004312E9 /* Build configuration list for PBXNativeTarget "StdAnimations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B8EC728265A3DF3004312E9 /* Debug */,
